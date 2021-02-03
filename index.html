@@ -1,0 +1,8 @@
+{{ Session::has('setsessioncart') }}
+  {{ print_r(Session::get('setsessioncart')) }}
+
+                  <pre>
+                    <code>
+                        @json(Session::get('setsessioncart'));
+                    </code>
+                </pre>
